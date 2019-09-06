@@ -1,0 +1,25 @@
+{
+  parser: "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "eslint-plugin-react"
+  ],
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "max-len": [1, 120, 2, {ignoreComments: true}],
+    "eol-last": [0],
+    "indent": 0,
+    "react/jsx-indent": 0,
+    "quotes": [2, "single"],
+    "no-mixed-requires": [0],
+    "no-underscore-dangle": [0],
+    "react/prefer-stateless-function": 0,
+    "arrow-body-style": ["error", "always"],
+    "no-console": 0
+  }
+}
